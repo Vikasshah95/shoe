@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./img/assets/asset 18.svg" alt="img" class="navlogo">
+        </div>
+        <div class="links">
+            <a href="">find a store</a>
+            <a href="">help</a>
+            <a href="">join us</a>
+            <a href="">sign in</a>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="nikelogo">
+            <img width="60px" src="./img/assets/asset 20.svg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">men</a></li>
+                <li><a href="#">women</a></li>
+                <li><a href="#">kids</a></li>
+                <li><a href="#">customize</a></li>
+                <li><a href="#">sale</a></li>
+                <li><a href="#">Gifts 🎁</a></li>
+                <li><a href="#">snkrs</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search">
+            <img src="/img/assets/asset 24.svg" alt="img">
+            <img src="/img/assets/asset 25.svg" alt="img">
+        </div>
+    </div>
+    <div class="carousel" data-flickity>
+        <div class="carousel-cell d-flex">
+            <div class="txt-c">
+                <p>Save Up to 40%</p>
+                <small>Shop All Our New Markdowns</small>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex">
+            <div class="txt-c">
+                <p>Save Up to 40%</p>
+                <small>Shop All Our New Markdowns</small>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex">
+            <div class="txt-c">
+                <p>Save Up to 40%</p>
+                <small>Shop All Our New Markdowns</small>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex">
+            <div class="txt-c">
+                <p>Save Up to 40%</p>
+                <small>Shop All Our New Markdowns</small>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex">
+            <div class="txt-c">
+                <p>Save Up to 40%</p>
+                <small>Shop All Our New Markdowns</small>
+            </div>
+        </div>
+    </div>
+    <div>
+
+        <div class="hero">
+            <div class="hero-text">
+                <p class="mb-0 p">Air force 1</p>
+                <h1 class="hero-title mt-0 mb-0">40 YEARS OF FORCE</h1>
+                <p class="hero-desc p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellat?</p>
+                <button class="shop">Shop Air force 1</button>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="hero-img"><img class="images" id="hero" width="100%" src="./img/image/shoes.png" alt=""></div>
+        </div>
+
+        <div class="changeable-img">
+            <div class="small-card">
+                <img class="small-img" width="100%" src="./img/image/shoes8.png" alt="">
+            </div>
+            <div class="small-card">
+                <img class="small-img" width="100%" src="./img/image/shoes6.png" alt="">
+            </div>
+            <div class="small-card">
+                <img class="small-img" width="100%" src="./img/image/shoes3.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="hero-1">
+
+        <div class="d-flexible">
+            <div class="card">
+                <div style="width:270px">
+                    <img class="img-hover" width="100%" src="./img/image/shoes4.png" alt="">
+                </div>
+
+                <div class="card-txt">
+                    <h2 class="mt-0 mb-0">Nike Air Force</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisi.</p>
+                    <button class="btn-shop-now">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div style="width:270px">
+                    <img class="img-hover" width="100%" src="./img/image/shoes6.png" alt="">
+                </div>
+
+                <div class="card-txt">
+                    <h2 class="mt-0 mb-0">Nike Air Force</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipi</p>
+                    <button class="btn-shop-now">Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <div style="width:270px">
+                    <img class="img-hover" width="100%" src="./img/image/shoes5.png" alt="">
+                </div>
+
+                <div class="card-txt">
+                    <h2 class="mt-0 mb-0">Nike Air Force</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisg</p>
+                    <button class="btn-shop-now">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1 class="mb-0">Made By Vikas Shah</h1>
+        <p class="mt-0">&copy; copyright 2022</p>
+    </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+
+        let heroImg = document.getElementById('hero');
+        let smallImg = document.getElementsByClassName('small-img');
+        
+        for(let i = 0;i<smallImg.length;i++)
+        {
+            smallImg[i].addEventListener("click",()=>{
+                let smallsrc = smallImg[i].src
+                heroImg.src = smallsrc
+            })
+        }
+    </script>
+    <script src="./App.js"></script>
+</body>
+
+</html>
